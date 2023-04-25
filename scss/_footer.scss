@@ -8,18 +8,21 @@ footer {
   justify-content: space-between;
   text-align: center;
 }
-footer > div {
-  width: 250px;
-  display: inline-block;
-  text-align: center;
-  color: white;
-  margin: 0 auto;
+footer {
+  div {
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    .footer__equipo {
+      text-align: left;
+      font-size: 17px;
+      color: white;
+    }
+  }
 }
-.footer__equipo {
-  text-align: left;
-  font-size: 17px;
-  color: white;
-}
+
 .imagen-equipo {
   margin-top: 0.5rem;
   filter: invert(1);
