@@ -197,7 +197,7 @@ footer > div {
   .nav__list li {
     display: block;
   }
-  .intro-section {
+  main .intro-section {
     display: initial;
   }
   #video-bienvenida {

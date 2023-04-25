@@ -10,9 +10,12 @@
   .nav__list li {
     display: block;
   }
-  .intro-section {
-    display: initial;
+  main {
+    .intro-section {
+      display: initial;
+    }
   }
+
   #video-bienvenida {
     width: 100%;
   }
