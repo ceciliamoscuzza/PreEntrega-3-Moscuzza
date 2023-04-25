@@ -135,7 +135,7 @@ main .intro-section {
 }
 
 .box-shadow {
-  box-shadow: 10px 5px 5px #218380;
+  box-shadow: 10px 5px 5px #437977;
 }
 
 .title {
@@ -161,6 +161,31 @@ main .intro-section {
 .card-container article img {
   order: -1;
   align-self: center;
+}
+
+.form {
+  text-align: center;
+}
+
+.form > fieldset {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form > fieldset > div {
+  padding: 0.4rem;
+}
+
+.form > fieldset label {
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+}
+
+.form > fieldset input,
+.form > fieldset textarea,
+.form > fieldset select {
+  width: 55%;
 }
 
 footer {
