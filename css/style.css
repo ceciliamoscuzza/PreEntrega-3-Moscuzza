@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.logo-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo-container .logo {
+  border-radius: 75px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.img {
+  max-width: 100%;
+}
+
+header {
+  background-color: #218380;
+  padding: 2rem 0 1rem 0;
+  top: 0;
+}
+
+.estilo-titulo-principal {
+  font-family: Georgia, "Times New Roman";
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #f0efef;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__list li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.nav__link {
+  color: #f5c2d5;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+main {
+  padding-top: 2rem;
+}
+main .intro-section {
+  display: flex;
+}
+
+.alineacion-bienvenida {
+  width: 50%;
+}
+.alineacion-bienvenida .texto-bienvenida {
+  font-size: 16px;
+  text-align: left;
+  padding-left: 2rem;
+  line-height: 1.75;
+}
+
+#video-bienvenida {
+  width: 50%;
+  height: 400px;
+}
+
+.admisiones {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.admisiones a,
+.button {
+  color: #f0efef;
+  padding: 1rem;
+  background: #218380;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #218380;
+  padding: 1rem;
+  margin-top: auto;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+footer > div {
+  width: 250px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+
+.footer__equipo {
+  text-align: left;
+  font-size: 17px;
+  color: white;
+}
+
+.imagen-equipo {
+  margin-top: 0.5rem;
+  filter: invert(1);
+}
+
+.redes {
+  text-align: center;
+  font-size: 17px;
+  display: inline-block;
+}
+
+.redes-icono {
+  display: inline-block;
+  color: white;
+}
+
+.copyright {
+  text-decoration: none;
+  text-align: center;
+}
+
+.imagen-copyright {
+  margin-top: 0.5rem;
+  filter: invert(1);
+}
+
+/*# sourceMappingURL=style.css.map */
