@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+  .estilo-titulo-principal {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .logo-container {
+    display: block;
+    text-align: center;
+  }
+  .nav__list li {
+    display: block;
+  }
+  .intro-section {
+    display: initial;
+  }
+  #video-bienvenida {
+    width: 100%;
+  }
+  .alineacion-bienvenida {
+    width: 100%;
+  }
+  .grid-container {
+    display: initial;
+    padding: initial;
+  }
+  .grid-item-2 {
+    width: 100%;
+  }
+  .grid-item-5 {
+    width: 100%;
+  }
+  .table {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .grid-item-2 {
+    width: 500px;
+  }
+  .grid-item-5 {
+    width: 500px;
+  }
+}
