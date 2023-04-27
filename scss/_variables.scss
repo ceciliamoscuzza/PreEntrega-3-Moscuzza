@@ -4,54 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Raleway", sans-serif;
-
-  flex-wrap: wrap;
-  min-height: 100vh;
-}
-
-.logo-container {
-  display: inline-block;
-  vertical-align: middle;
-  .logo {
-    border-radius: 75px;
-  }
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 1320px;
-}
-.img {
-  max-width: 100%;
-}
-header {
-  background-color: #218380;
-  padding: 2rem 0 1rem 0;
-
-  top: 0;
-}
-.estilo-titulo-principal {
-  font-family: Georgia, "Times New Roman";
-  font-weight: 400;
-  font-size: 3rem;
-  text-align: center;
-  text-transform: capitalize;
-  color: #f0efef;
-  display: inline-block;
-  margin-left: 1rem;
-}
-
-.nav__list {
-  list-style: none;
-}
-.nav__list li {
-  display: inline-block;
-  padding: 1rem;
-}
-.nav__link {
-  color: #f5c2d5;
-  text-transform: uppercase;
-  text-decoration: none;
-}
+$background-color: #218380;
+$text-color-especial: #f0efef;
+$font-family-general: "Raleway", sans-serif;
+$font-family-title: Georgia, "Times New Roman";
