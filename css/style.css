@@ -198,8 +198,37 @@ main .intro-section {
   box-shadow: 0 0 14px #cacaca;
 }
 
+.card {
+  color: rgb(14, 13, 13);
+  background-size: cover;
+  padding: 10rem 0 0;
+  max-width: 280px;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card:hover,
+.card:focus-within {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 1.5rem;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+  transform: translateY(65%);
+  transition: transform 700ms ease;
+}
+
+.card:hover .card-content {
+  transform: translateY(0);
+  transition-delay: 500ms;
+}
+
 .card-container {
   display: flex;
+  width: 80%;
+  margin: auto;
   justify-content: space-around;
   gap: 1rem;
   flex-wrap: wrap;
