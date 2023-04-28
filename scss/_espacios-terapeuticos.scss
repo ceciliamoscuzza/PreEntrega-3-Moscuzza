@@ -1,53 +1,24 @@
-.card {
-  color: rgb(14, 13, 13);
-
-  background-size: cover;
-  padding: 10rem 0 0;
-  max-width: 280px;
-  border-radius: 1rem;
-  overflow: hidden;
-  transition: transform 500ms ease;
+.container {
+  width: 90%;
+  margin: auto;
 }
 
-.card:hover,
-.card:focus-within {
-  transform: scale(1.05);
+.col-container {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
 }
-
-.card-content {
-  padding: 1.5rem;
-  background: linear-gradient(black, rgba(0, 0, 0, 0.5));
-  transform: translateY(65%);
-  transition: transform 500ms ease;
+.col-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 15%;
 }
-
-.card:hover .card-content {
-  transform: translateY(0);
-  transition-delay: 500ms;
+.col-title-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
-
-.card-content__title {
-  text-decoration: underline;
-  text-decoration-color: lightgray;
-}
-
-.card-content__body {
-  color: rgba(10, 10, 10, 0.8);
-}
-
-.button {
-  cursor: pointer;
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  background-color: black;
-  padding: 0.2rem 1rem;
-  border-radius: 0.25rem;
-  transition: all 0.5s ease;
-}
-
-.button:hover,
-.button:focus {
-  background-color: white;
-  color: black;
+.col-picture {
+  margin-bottom: 2rem;
+  width: 50%;
+  margin-left: 20%;
 }
