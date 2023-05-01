@@ -84,6 +84,7 @@ main .intro-section {
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .admisiones a,
@@ -231,11 +232,15 @@ main .intro-section {
 
 .form > fieldset {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 1rem auto;
+  background: rgb(88, 163, 161);
+  background: radial-gradient(circle, rgb(88, 163, 161) 0%, rgb(190, 215, 215) 71%);
+  text-align: center;
 }
 
 .form > fieldset > div {
   padding: 0.4rem;
+  margin-top: 1rem;
 }
 
 .form > fieldset label {
@@ -253,7 +258,7 @@ main .intro-section {
 footer {
   background-color: #218380;
   padding: 1rem;
-  margin-top: auto;
+  margin-top: 2rem;
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
@@ -333,6 +338,15 @@ footer div .footer__equipo {
   }
   .table {
     font-size: 10px;
+  }
+  .form > fieldset label {
+    width: 100%;
+    text-align: center;
+  }
+  .form > fieldset input,
+  .form > fieldset textarea,
+  .form > fieldset select {
+    width: 60%;
   }
 }
 @media (min-width: 1200px) {

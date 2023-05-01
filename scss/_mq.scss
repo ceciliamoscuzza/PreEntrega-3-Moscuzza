@@ -35,7 +35,18 @@
   .table {
     font-size: 10px;
   }
+  .form > fieldset label {
+    width: 100%;
+    text-align: center;
+  }
+
+  .form > fieldset input,
+  .form > fieldset textarea,
+  .form > fieldset select {
+    width: 60%;
+  }
 }
+
 @media (min-width: 1200px) {
   .grid-item-2 {
     width: 500px;

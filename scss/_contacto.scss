@@ -3,17 +3,27 @@
 }
 .form > fieldset {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 1rem auto;
+  background: rgb(88, 163, 161);
+  background: radial-gradient(
+    circle,
+    rgba(88, 163, 161, 1) 0%,
+    rgba(190, 215, 215, 1) 71%
+  );
+
+  text-align: center;
 }
 
 .form > fieldset > div {
   padding: 0.4rem;
+  margin-top: 1rem;
 }
 .form > fieldset label {
   width: 40%;
   text-align: right;
   vertical-align: top;
 }
+
 .form > fieldset input,
 .form > fieldset textarea,
 .form > fieldset select {
