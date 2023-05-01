@@ -58,6 +58,10 @@ header {
   text-decoration: none;
 }
 
+.nav__link:hover {
+  transition: all 0.2s ease-in;
+}
+
 main {
   padding-top: 2rem;
 }
@@ -191,6 +195,11 @@ main .intro-section {
   transform: scale(1.05);
 }
 
+.card p {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
 .card-content {
   padding: 1.5rem;
   background: linear-gradient(black, rgba(0, 0, 0, 0.5));
@@ -224,6 +233,7 @@ main .intro-section {
 .card-container article img {
   order: -1;
   align-self: center;
+  margin-bottom: 0.5rem;
 }
 
 .form {
@@ -346,7 +356,7 @@ footer div .footer__equipo {
   .form > fieldset input,
   .form > fieldset textarea,
   .form > fieldset select {
-    width: 60%;
+    width: 80%;
   }
 }
 @media (min-width: 1200px) {

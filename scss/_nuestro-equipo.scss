@@ -18,7 +18,10 @@
 .card:focus-within {
   transform: scale(1.05);
 }
-
+.card p {
+  text-align: center;
+  margin: 0.5rem 0;
+}
 .card-content {
   padding: 1.5rem;
   background: linear-gradient(black, rgba(0, 0, 0, 0.5));
@@ -49,4 +52,5 @@
 .card-container article img {
   order: -1;
   align-self: center;
+  margin-bottom: 0.5rem;
 }

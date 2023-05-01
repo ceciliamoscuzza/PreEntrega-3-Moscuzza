@@ -49,6 +49,9 @@ header {
   text-transform: uppercase;
   text-decoration: none;
 }
+.nav__link:hover {
+  transition: all 0.2s ease-in;
+}
 
 main {
   padding-top: 2rem;
