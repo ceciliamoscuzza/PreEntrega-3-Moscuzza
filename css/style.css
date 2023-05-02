@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -35,12 +36,20 @@ header {
 .estilo-titulo-principal {
   font-family: Georgia, "Times New Roman";
   font-weight: 400;
-  font-size: 3rem;
   text-align: center;
   text-transform: capitalize;
   color: #f0efef;
   display: inline-block;
   margin-left: 1rem;
+}
+.estilo-titulo-principal h1 {
+  font-size: 3rem;
+}
+.estilo-titulo-principal h2 {
+  font-size: 2rem;
+}
+.estilo-titulo-principal h3 {
+  font-size: 1.5rem;
 }
 
 .nav__list {
@@ -159,6 +168,15 @@ main .intro-section {
   margin-bottom: 1rem;
   margin-left: 15%;
 }
+.col-title h1 {
+  font-size: tamano-1.5rem;
+}
+.col-title h2 {
+  font-size: tamano-1.5rem-1rem;
+}
+.col-title h3 {
+  font-size: tamano-1.5rem-1.5rem;
+}
 
 .col-title-1 {
   margin-top: 1rem;
@@ -174,6 +192,15 @@ main .intro-section {
 
 .title {
   text-align: center;
+}
+.title h1 {
+  font-size: tamaño-1rem;
+}
+.title h2 {
+  font-size: tamaño-1rem-1rem;
+}
+.title h3 {
+  font-size: tamaño-1rem-1.5rem;
 }
 
 .box-shadow {

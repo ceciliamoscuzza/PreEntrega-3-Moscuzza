@@ -25,10 +25,21 @@ header {
 
   top: 0;
 }
+@mixin encabezados($tamano) {
+  h1 {
+    font-size: $tamano;
+  }
+  h2 {
+    font-size: $tamano - 1rem;
+  }
+  h3 {
+    font-size: $tamano - 1.5rem;
+  }
+}
 .estilo-titulo-principal {
   font-family: $font-family-title;
   font-weight: 400;
-  font-size: 3rem;
+  @include encabezados(3rem);
   text-align: center;
   text-transform: capitalize;
   color: #f0efef;
