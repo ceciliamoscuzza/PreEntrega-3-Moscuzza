@@ -220,7 +220,6 @@ main .intro-section {
   gap: 1rem;
   flex-wrap: wrap;
 }
-
 .card-container article {
   display: flex;
   flex: 0 1 300px;
@@ -229,7 +228,6 @@ main .intro-section {
   border-radius: 1rem;
   padding: 2rem;
 }
-
 .card-container article img {
   order: -1;
   align-self: center;

@@ -5,7 +5,7 @@
   box-shadow: 0 0 14px #cacaca;
 }
 .card {
-  color: rgb(14, 13, 13);
+  color: $color-card;
 
   background-size: cover;
   padding: 10rem 0 0;
@@ -40,17 +40,17 @@
   justify-content: space-around;
   gap: 1rem;
   flex-wrap: wrap;
-}
-.card-container article {
-  display: flex;
-  flex: 0 1 300px;
-  flex-direction: column;
-  border: 1px solid #ccc;
-  border-radius: 1rem;
-  padding: 2rem;
-}
-.card-container article img {
-  order: -1;
-  align-self: center;
-  margin-bottom: 0.5rem;
+  article {
+    display: flex;
+    flex: 0 1 300px;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 2rem;
+    img {
+      order: -1;
+      align-self: center;
+      margin-bottom: 0.5rem;
+    }
+  }
 }
