@@ -1,6 +1,18 @@
+@mixin encabezados($tamano) {
+  h1 {
+    font-size: $tamano;
+  }
+  h2 {
+    font-size: $tamano - 1rem;
+  }
+  h3 {
+    font-size: $tamano - 1.3rem;
+  }
+}
+
 body {
   font-family: $font-family-general;
-
+  @include encabezados(3rem);
   min-height: 100vh;
 }
 
@@ -25,21 +37,11 @@ header {
 
   top: 0;
 }
-@mixin encabezados($tamano) {
-  h1 {
-    font-size: $tamano;
-  }
-  h2 {
-    font-size: $tamano - 1rem;
-  }
-  h3 {
-    font-size: $tamano - 1.5rem;
-  }
-}
+
 .estilo-titulo-principal {
   font-family: $font-family-title;
   font-weight: 400;
-  @include encabezados(3rem);
+
   text-align: center;
   text-transform: capitalize;
   color: #f0efef;
