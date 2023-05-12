@@ -138,6 +138,8 @@ main .intro-section {
 
 .grid-item-4 {
   grid-template-areas: text;
+  order: 2;
+  align-self: auto;
 }
 
 .grid-item-5 {
