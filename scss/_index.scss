@@ -18,7 +18,7 @@ body {
 .logo-container {
   display: inline-block;
   vertical-align: middle;
-  .logo {
+  & .logo {
     border-radius: 75px;
   }
 }
@@ -50,7 +50,7 @@ header {
 
 .nav__list {
   list-style: none;
-  li {
+  & li {
     display: inline-block;
     padding: 1rem;
     font-family: $font-family-general;

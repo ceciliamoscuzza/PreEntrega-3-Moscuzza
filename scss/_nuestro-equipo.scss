@@ -40,7 +40,7 @@
   justify-content: space-around;
   gap: 1rem;
   flex-wrap: wrap;
-  article {
+  & article {
     display: flex;
     flex: 0 1 300px;
     flex-direction: column;

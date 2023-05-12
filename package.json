@@ -1,7 +1,7 @@
 {
   "name": "reestructuracion-del-trabajo",
   "version": "1.0.0",
-  "description": "",
+  "description": "En esta página encontrarás información sobre las terapias que se ofrecen en nuestro espacio y qué profesionales están a cargo de ellas.",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss:css"
